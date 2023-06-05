@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-10dp"
+        android:background="@drawable/bacgtound_style"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="-349dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/pdf"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pdf Spliter"
+            android:gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:id="@+id/heading"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            app:fontFamily="sans-serif-black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:visibility="visible"
+        android:id="@+id/adView"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+           app:cardBackgroundColor="#ff9999"
+
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+               android:id="@+id/select"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/pdf_check"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Select Pdf"
+                    android:gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:fontFamily="sans-serif-black" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#FF6200EE"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/save_files"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/pdf"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Save Files"
+                    android:gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:fontFamily="sans-serif-black" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="15dp"
+            app:cardBackgroundColor="#ffbf80"
+            android:layout_height="150dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/share_bt"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/share"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Share"
+                    android:gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:fontFamily="sans-serif-black" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="#ff9999"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/rate_us"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/rate_us"
+                    ></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Rate Us"
+                    android:gravity="center_horizontal"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    app:fontFamily="sans-serif-black" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout></ScrollView>

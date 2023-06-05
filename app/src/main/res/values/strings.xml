@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pdf Spliter</string>
+
+    <string name="ap_id">ca-app-pub-7772467311411401~4842516539</string>
+
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intertail_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_inter_id">ca-app-pub-7772467311411401/4891129446</string>
+    <string name="native_id">ca-app-pub-7772467311411401/7986381864</string>
+
+</resources>
